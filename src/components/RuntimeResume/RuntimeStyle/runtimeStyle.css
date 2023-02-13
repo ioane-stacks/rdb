@@ -1,0 +1,91 @@
+.runtime_resume_conainer {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.runtime_resume_conainer .runtime_resume {
+  position: absolute;
+  width: 662px;
+  top: 68px;
+  left: 80px;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 {
+  display: flex;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container {
+  width: 432px;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container .name_surname {
+  font-family: myfont;
+  font-size: 34px;
+  color: #f93b1d;
+  font-weight: 700;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container .gmail_phone {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container .gmail_phone .each_cont {
+  display: flex;
+  align-items: center;
+  gap: 11.7px;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container .gmail_phone .each_cont p {
+  font-size: 18px;
+  font-family: myfont;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container .about_me {
+  margin-top: 34px;
+  color: #f93b1d;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: myfont;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_left_container .about_me_text {
+  margin-top: 15px;
+  font-family: myfont;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_right_container {
+  width: 246px;
+}
+
+.runtime_resume_conainer .runtime_resume .section1 .section1_right_container .image_container {
+  width: 246px;
+  height: 246px;
+  border-radius: 133px;
+  border: 1px solid red;
+}
+
+.image_container {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.image_container img {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.runtime_resume_conainer .runtime_resume .line {
+  margin-top: 19px;
+  height: 1px;
+  width: 100%;
+  background-color: #C8C8C8;
+}
+
+/*# sourceMappingURL=runtimeStyle.css.map */

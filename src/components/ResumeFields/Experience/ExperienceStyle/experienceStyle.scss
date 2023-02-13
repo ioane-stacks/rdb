@@ -1,0 +1,50 @@
+.experience {
+  .header_information {
+    border-bottom: 1px solid #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    .title {
+      font-family: myfont;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+  form {
+    .textarea_container {
+      .jobdescription {
+        height: 123px;
+      }
+    }
+  }
+}
+.more_experience {
+  margin-top: 45px;
+  background: #62a1eb;
+  border-radius: 4px;
+  border: none;
+  padding: 18px 60px;
+  color: white;
+  cursor: pointer;
+  font-family: myfont;
+}
+.btns_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+  margin-bottom: 65px;
+  button {
+    padding: 18px 60px;
+    background-color: #6b40e3;
+    border: none;
+    font-family: myfont;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+}
+.jobdescription {
+  height: 193px;
+}
